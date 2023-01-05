@@ -7,6 +7,9 @@ main {
 header h1 {
   font-family: "Pixel Emulator", cursive;
 }
+header h2 {
+  font-family: "Pixel Emulator", cursive;
+}
 
 nav {
   display: flex;
@@ -48,4 +51,15 @@ main {
   align-items: center;
   justify-content: center;
   height: 100%;
+}
+
+#container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh; /* full screen height */
+}
+
+#content {
+  text-align: center;
 }
