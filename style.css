@@ -34,15 +34,6 @@ nav a:hover {
   border: 2px solid #FFFFFF;
 }
 
-header nav a {
-  text-decoration: none;
-  color: inherit;
-}
-
-header nav a:hover {
-  text-decoration: underline;
-}
-
 html,
 body {
   height: 100%;
@@ -71,4 +62,15 @@ main {
 
 #content {
   text-align: center;
+}
+
+/* Add the following CSS rules */
+header h1 a 
+header h1 a:visited{
+  color: inherit;
+  text-decoration: none;
+}
+
+header h1 a:hover {
+  text-decoration: none;
 }
